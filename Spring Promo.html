@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spring Pastry Box: 20% Off Until May 31 | Corner Bakery</title>
+  <meta name="description"
+        content="Order a spring pastry box from Corner Bakery in Ottawa: twelve seasonal pastries, including rhubarb tarts and lemon buns, now at 20% off until May 31.">
+  <link rel="canonical" href="https://cornerbakery.example/spring-promo.html">
+  <meta property="og:title" content="Spring Pastry Box: 20% Off">
+  <meta property="og:description" content="A brunch box of six pastries, 20% off until May 31.">
+  <meta property="og:image" content="https://cornerbakery.example/images/og-corner-bakery.jpg">
+  <meta property="og:url" content="https://cornerbakery.example/spring-promo.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ===== Header and main navigation (same on every page) ===== -->
+  <header>
+    <a class="logo" href="index.html">Corner Bakery</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="sourdough-class.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Spring pastry box</h1>
+    <p>Twelve seasonal pastries in one box: rhubarb tarts, lemon buns, and our cardamom twists. <strong>20% off until May 31.</strong></p>
+    <table>
+      <caption>What's in the box</caption>
+      <tr>
+        <th scope="col">Pastry</th>
+        <th scope="col">How many</th>
+      </tr>
+      <tr>
+        <td>Rhubarb tart</td>
+        <td>4</td>
+      </tr>
+      <td>Lemon bun</td>
+      <tr>
+        <td>Cardamom twist</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <p class="note"><h2>How to order</h2></p>
+    <form action="thank-you.html" method="get">
+      <label for="name">Name</label>
+      <input id="name" name="name" autocomplete="name" required>
+      <label for="phone">Phone</label>
+      <input id="tel" name="phone" type="tel" autocomplete="tel" required>
+      <label for="pickup">Pickup date</label>
+      <input id="name" name="pickup" type="date" required>
+      <button type="submit">Order a box</button>
+    </form>
+    <p>You can also order at the counter or through our <a href="contact.html">contact form</a>, at least one day ahead.</p>
+  </main>
+  <!-- ===== Footer: keep the phone, address and hours identical to the Bakery JSON-LD on the home page ===== -->
+  <footer>
+    <p>Corner Bakery · 214 Bank Street, Ottawa · 613-555-0182 · Open Tuesday to Sunday, 7 a.m. to 5 p.m.</p>
+    <p>A fictional bakery made for MTM1511 practice.</p>
+  </footer>
+</body>
+</html>

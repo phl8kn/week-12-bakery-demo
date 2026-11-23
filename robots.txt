@@ -1,0 +1,17 @@
+# Corner Bakery robots.txt
+
+# Every crawler not named below, including search engines
+# (Googlebot, Bingbot, OAI-SearchBot), may crawl the whole site.
+# The thank-you page is NOT blocked here: it uses a noindex meta tag,
+# and crawlers must be able to fetch it to read that tag.
+User-agent: *
+Allow: /
+
+# Crawlers that collect pages to train AI models: blocked
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://cornerbakery.example/sitemap.xml

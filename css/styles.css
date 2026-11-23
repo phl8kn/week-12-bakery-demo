@@ -1,0 +1,29 @@
+/* Corner Bakery practice site */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: #3b2f2a; background: #fbf7f2; line-height: 1.6; }
+header, main, footer { max-width: 900px; margin: 0 auto; padding: 1rem 1.25rem; }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-bottom: 3px solid #b5651d; }
+.logo { font-size: 1.6rem; font-weight: bold; color: #b5651d; text-decoration: none; }
+nav ul { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
+nav a { color: #3b2f2a; }
+h1 { font-size: 2.2rem; line-height: 1.2; color: #7a3e0f; }
+h2 { font-size: 1.5rem; color: #7a3e0f; margin-top: 2rem; }
+h3 { font-size: 1.15rem; margin-bottom: 0.25rem; }
+.page-title { font-size: 1.8rem; color: #7a3e0f; }
+.small-heading { font-size: 1rem; }
+.specials { background: #f3e6d6; padding: 1rem 1.25rem; border-radius: 8px; }
+.price { font-weight: bold; color: #b5651d; }
+form { display: grid; gap: 0.75rem; max-width: 420px; }
+label { font-weight: bold; }
+input, textarea, button { font: inherit; padding: 0.5rem; }
+button { background: #b5651d; color: #fff; border: 0; border-radius: 6px; cursor: pointer; }
+footer { border-top: 1px solid #e0cdb8; font-size: 0.9rem; margin-top: 3rem; }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0 0 1rem; font-size: 0.95rem; }
+.breadcrumb li + li::before { content: "›"; margin-right: 0.5rem; color: #b5651d; }
+
+/* Week 12 additions */
+img { max-width: 100%; height: auto; border-radius: 8px; }
+table { border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid #e0cdb8; padding: 0.4rem 0.8rem; text-align: left; }
+th { background: #f3e6d6; }
+.note { background: #f3e6d6; padding: 0.75rem 1rem; border-radius: 8px; }

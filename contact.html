@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact, Hours and Directions | Corner Bakery Ottawa</title>
+  <meta name="description"
+        content="Find Corner Bakery at 214 Bank Street, Ottawa. Open Tuesday to Sunday, 7 a.m. to 5 p.m. Send a question, book a class, or order a birthday cake for pickup.">
+  <link rel="canonical" href="https://cornerbakery.example/contact.html">
+  <meta property="og:title" content="Contact Corner Bakery">
+  <meta property="og:description" content="214 Bank Street, Ottawa. Open Tuesday to Sunday, 7 a.m. to 5 p.m.">
+  <meta property="og:image" content="https://cornerbakery.example/images/og-corner-bakery.jpg">
+  <meta property="og:url" content="https://cornerbakery.example/contact.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ===== Header and main navigation (same on every page) ===== -->
+  <header>
+    <a class="logo" href="index.html">Corner Bakery</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="sourdough-class.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact us</h1>
+    <p>214 Bank Street, Ottawa. Open Tuesday to Sunday, 7 a.m. to 5 p.m.</p>
+    <table>
+      <caption>Opening hours</caption>
+      <tr>
+        <th scope="col">Day</th>
+        <th scope="col">Hours</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Closed</td>
+      </tr>
+        <td>Tuesday to Friday</td>
+        <td>7 a.m. to 5 p.m.</td>
+      </tr>
+      <tr>
+        <td>Saturday and Sunday</td>
+        <td>7 a.m. to 5 p.m.</td>
+      </tr>
+    </table>
+    <h2>Send us a message</h2>
+    <form action="thank-you.html" method="get">
+      <label for="name">Name</label>
+      <input id="name" name="name" autocomplete="name" required>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="email">Confirm email</label>
+      <input id="email" name="email-confirm" type="email" required>
+      <label for="phone">Phone (optional)</label>
+      <input id="telephone" name="phone" type="tel" autocomplete="tel">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+      <button type="submit">Send message</button>
+    </form>
+  </main>
+  <!-- ===== Footer: keep the phone, address and hours identical to the Bakery JSON-LD on the home page ===== -->
+  <footer>
+    <p>Corner Bakery · 214 Bank Street, Ottawa · 613-555-0182 · Open Tuesday to Sunday, 7 a.m. to 5 p.m.</p>
+    <p>A fictional bakery made for MTM1511 practice.</p>
+  </footer>
+</body>
+</html>
